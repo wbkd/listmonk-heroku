@@ -5,5 +5,13 @@ if [ ! -f config/listmonk.toml ]; then
   erb config/listmonk.toml.erb > config/listmonk.toml
 fi
 
+# Download the latest release.
+URL=$( curl -s https://api.github.com/repos/knadh/listmonk/releases | grep -m 1 -o 'https://.*linux_amd64.tar.gz' )
+
+curl -fsSL $URL | tar xzf -
+
 touch /tmp/app-initialized
-./listmonk --config config/listmonk.toml
+
+# Install the DB schema.
+./listmonk --config=config/listmonk.toml --install --yes
+
