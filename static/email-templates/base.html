@@ -8,16 +8,16 @@
 
         <style>
             body {
-                background-color: #F0F1F3;
+                background-color: #1A192B;
                 font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, sans-serif;
                 font-size: 15px;
                 line-height: 26px;
                 margin: 0;
-                color: #444;
+                color: #fff;
             }
 
             .wrap {
-                background-color: #fff;
+                background-color: #1A192B;
                 padding: 30px;
                 max-width: 525px;
                 margin: 0 auto;
@@ -33,17 +33,17 @@
             .footer {
                 text-align: center;
                 font-size: 12px;
-                color: #888;
+                color: #ccc;
             }
                 .footer a {
-                    color: #888;
+                    color: #ccc;
                 }
 
             .gutter {
                 padding: 30px;
             }
             .button {
-                background: #7f2aff;
+                background: #FF0072;
                 color: #fff !important;
                 display: inline-block;
                 border-radius: 3px;
@@ -61,7 +61,7 @@
             }
 
             a {
-                color: #7f2aff;
+                color: #FF0072;
             }
                 a:hover {
                     color: #111;
@@ -76,23 +76,16 @@
             }
         </style>
     </head>
-<body style="background-color: #F0F1F3;">
+<body style="background-color: #1A192B;">
     <div class="gutter">&nbsp;</div>
     <div class="wrap">
         <div class="header">
-            {{ if ne LogoURL "" }}
-                <a href="{{ RootURL }}"><img src="{{ LogoURL }}" alt="listmonk" /></a>
-            {{ end }}
+            <img src=""
         </div>
 {{ end }}
 
 {{ define "footer" }}
     </div>
-    
-    <div class="footer">
-        <p>Powered by <a href="https://listmonk.app" target="_blank">listmonk</a></p>
-    </div>
-    <div class="gutter">&nbsp;</div>
 </body>
 </html>
 {{ end }}
