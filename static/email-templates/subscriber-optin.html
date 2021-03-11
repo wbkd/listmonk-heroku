@@ -1,18 +1,11 @@
 {{ define "subscriber-optin" }}
 {{ template "header" . }}
-<h2>{{ L.Ts "email.optin.confirmSubTitle" }}</h2>
-<p>{{ L.Ts "email.optin.confirmSubWelcome" }} {{ .Subscriber.FirstName }}</p>
-<p>{{ L.Ts "email.optin.confirmSubInfo" }}</p>
-<ul>
-    {{ range $i, $l := .Lists }}
-        {{ if eq .Type "public" }}
-            <li>{{ .Name }}</li>
-        {{ else }}
-            <li>{{ L.Ts "email.optin.privateList" }}</li>
-        {{ end }}
-    {{ end }}
-</ul>
-<p>{{ L.Ts "email.optin.confirmSubHelp" }}</p>
+<h2>Hi!</h2>
+<p>Thanks for your interest in datablocks! You can check out the alpha version here:</p>
+<p><a href="https://datablocks.webkid.io">datablocks.webkid.io</a></p>
+<p>pw: DataBlocksDemo!</p>
+<p>We look forward for your feedback, suggestions and questions.</p>
+<p>IIf you would like to receive updates regarding datablocks click the button below and we will sign you up for our newsletter.</p>
 <p>
     <a href="{{ .OptinURL }}" class="button">{{ L.Ts "email.optin.confirmSub" }}</a>
 </p>
