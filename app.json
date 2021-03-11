@@ -6,7 +6,7 @@
   "website": "https://listmonk.app",
   "keywords": ["emails", "newsletter"],
   "scripts": {
-    "postdeploy": "erb config/listmonk.toml.erb > config/listmonk.toml && ./listmonk --config=config/listmonk.toml --install --yes"
+    "postdeploy": "erb config/listmonk.toml.erb > config/listmonk.toml && ./listmonk --config=config/listmonk.toml --static-dir=static --install --yes"
   },
   "success_url": "/settings",
   "env": {

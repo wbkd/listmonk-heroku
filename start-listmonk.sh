@@ -9,5 +9,5 @@ fi
 touch /tmp/app-initialized
 
 # Update and start
-./listmonk --config=config/listmonk.toml --upgrade --yes
-./listmonk --config=config/listmonk.toml
+./listmonk --static-dir=static --config=config/listmonk.toml --upgrade --yes
+./listmonk --static-dir=static --config=config/listmonk.toml
