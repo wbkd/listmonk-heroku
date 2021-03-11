@@ -185,17 +185,17 @@ html, body {
   min-width: 320px;
 }
 body {
-  background: #f9f9f9;
+  background: #222138;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   line-height: 28px;
-  color: #111;
+  color: #fff;
 }
 a {
-  color: #7f2aff;
+  color: #FF0072;
 }
 a:hover {
-  color: #111;
+  color: #fff;
 }
 label {
   cursor: pointer;
@@ -218,11 +218,11 @@ input[type="text"], input[type="email"], select {
   width: 100%;
 }
   input:focus {
-    border-color: #7f2aff;
+    border-color: #FF0072;
   }
 
 .button {
-  background: #7f2aff;
+  background: #FF0072;
   padding: 15px 30px;
   border-radius: 3px;
   border: 0;
@@ -238,25 +238,25 @@ input[type="text"], input[type="email"], select {
 }
 .button.button-outline {
   background: #fff;
-  border: 1px solid #7f2aff;
-  color: #7f2aff;
+  border: 1px solid #FF0072;
+  color: #FF0072;
 }
 .button.button-outline:hover {
-  background-color: #7f2aff;
+  background-color: #FF0072;
   color: #fff;
 }
 
 .wrap {
-  background: #fff;
+  background: #1A192B;
   margin-top: 60px;
   max-width: 600px;
   padding: 45px;
-  box-shadow: 2px 2px 0 #f3f3f3;
-  border: 1px solid #eee;
+  box-shadow: 2px 2px 0 #333;
+  border: 1px solid #333;
 }
 
 .header {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #333;
   padding-bottom: 15px;
   margin-bottom: 30px;
 }
