@@ -251,12 +251,11 @@ input[type="text"], input[type="email"], select {
   margin-top: 60px;
   max-width: 600px;
   padding: 45px;
-  box-shadow: 2px 2px 0 #333;
-  border: 1px solid #333;
+  border: 1px solid #222138;
 }
 
 .header {
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #222138;
   padding-bottom: 15px;
   margin-bottom: 30px;
 }
