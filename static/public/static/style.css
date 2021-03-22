@@ -179,7 +179,8 @@
   }
 } /*# sourceMappingURL=dist/flexit.min.css.map */
 
-html, body {
+html,
+body {
   padding: 0;
   margin: 0;
   min-width: 320px;
@@ -192,7 +193,7 @@ body {
   color: #fff;
 }
 a {
-  color: #FF0072;
+  color: #ff0072;
 }
 a:hover {
   color: #fff;
@@ -211,18 +212,20 @@ h4 {
   margin-bottom: 45px;
 }
 
-input[type="text"], input[type="email"], select {
+input[type="text"],
+input[type="email"],
+select {
   padding: 10px 15px;
   border: 1px solid #888;
   border-radius: 3px;
   width: 100%;
 }
-  input:focus {
-    border-color: #FF0072;
-  }
+input:focus {
+  border-color: #ff0072;
+}
 
 .button {
-  background: #FF0072;
+  background: #ff0072;
   padding: 15px 30px;
   border-radius: 3px;
   border: 0;
@@ -238,16 +241,16 @@ input[type="text"], input[type="email"], select {
 }
 .button.button-outline {
   background: #fff;
-  border: 1px solid #FF0072;
-  color: #FF0072;
+  border: 1px solid #ff0072;
+  color: #ff0072;
 }
 .button.button-outline:hover {
-  background-color: #FF0072;
+  background-color: #ff0072;
   color: #fff;
 }
 
 .wrap {
-  background: #1A192B;
+  background: #1a192b;
   margin-top: 60px;
   max-width: 600px;
   padding: 45px;

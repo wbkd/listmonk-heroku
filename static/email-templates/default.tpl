@@ -7,16 +7,23 @@
 
         <style>
             body {
-                background-color: #F0F1F3;
+                background-color: #222138;
                 font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, sans-serif;
                 font-size: 15px;
                 line-height: 26px;
                 margin: 0;
-                color: #444;
+                color: #fff;
+            }
+
+
+            .header {
+                border-bottom: 1px solid #eee;
+                padding-bottom: 15px;
+                margin-bottom: 15px;
             }
 
             .wrap {
-                background-color: #fff;
+                background-color: #1A192B;
                 padding: 30px;
                 max-width: 525px;
                 margin: 0 auto;
@@ -24,7 +31,7 @@
             }
 
             .button {
-                background: #7f2aff;
+                background: #FF0072;
                 border-radius: 3px;
                 text-decoration: none !important;
                 color: #fff !important;
@@ -54,10 +61,10 @@
             }
 
             a {
-                color: #7f2aff;
+                color: #FF0072;
             }
                 a:hover {
-                    color: #111;
+                    color: #fff;
                 }
             @media screen and (max-width: 600px) {
                 .wrap {
@@ -69,18 +76,21 @@
             }
         </style>
     </head>
-<body style="background-color: #F0F1F3;font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, sans-serif;font-size: 15px;line-height: 26px;margin: 0;color: #444;">
+<body style="background-color: #222138;font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, sans-serif;font-size: 15px;line-height: 26px;margin: 0;color: #fff;">
     <div class="gutter" style="padding: 30px;">&nbsp;</div>
-    <div class="wrap" style="background-color: #fff;padding: 30px;max-width: 525px;margin: 0 auto;border-radius: 5px;">
+    <div class="wrap" style="background-color: #1A192B;padding: 30px;max-width: 525px;margin: 0 auto;border-radius: 5px;">
+        <div class="header">
+            <img src="https://datablocks.pro/images/datablocks-logo.png" width="160" />
+        </div>
         {{ template "content" . }}
     </div>
     
-    <div class="footer" style="text-align: center;font-size: 12px;color: #888;">
+    <div class="footer" style="text-align: center;font-size: 12px;color: #9ca8b3;">
         <p>
             {{ L.T "email.unsubHelp" }}
-            <a href="{{ UnsubscribeURL }}" style="color: #888;">{{ L.T "email.unsub" }}</a>
+            <a href="{{ UnsubscribeURL }}" style="color: #9ca8b3;">{{ L.T "email.unsub" }}</a>
         </p>
-        <p>Powered by <a href="https://listmonk.app" target="_blank" style="color: #888;">listmonk</a></p>
+        <p><a href="https://datablocks.pro" target="_blank" style="color: #9ca8b3;">datablocks</a> is a project by <a href="https://webkid.io" target="_blank" style="color: #9ca8b3;">webkid.io</a></p>
     </div>
     <div class="gutter" style="padding: 30px;">&nbsp;{{ TrackView }}</div>
 </body>
