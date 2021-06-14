@@ -1,91 +1,104 @@
 {{ define "header" }}
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-        <base target="_blank">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <base target="_blank" />
 
-        <style>
-            body {
-                background-color: #222138;
-                font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, sans-serif;
-                font-size: 15px;
-                line-height: 26px;
-                margin: 0;
-                color: #fff;
-            }
+    <style>
+      body {
+        background-color: #222138;
+        font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, sans-serif;
+        font-size: 15px;
+        line-height: 26px;
+        margin: 0;
+        color: #ffffff;
+      }
 
-            .wrap {
-                background-color: #1A192B;
-                padding: 30px;
-                max-width: 525px;
-                margin: 0 auto;
-                border-radius: 5px;
-            }
+      .wrap {
+        background-color: #1a192b;
+        padding: 30px;
+        max-width: 525px;
+        margin: 0 auto;
+        border-radius: 5px;
+      }
 
-            .header {
-                border-bottom: 1px solid #eee;
-                padding-bottom: 15px;
-                margin-bottom: 15px;
-            }
+      .header {
+        border-bottom: 1px solid #eeeeee;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+      }
 
-            .footer {
-                text-align: center;
-                font-size: 12px;
-                color: #ccc;
-            }
-                .footer a {
-                    color: #ccc;
-                }
+      .footer {
+        text-align: center;
+        font-size: 12px;
+        color: #cccccc;
+      }
+      .footer a {
+        color: #cccccc;
+      }
 
-            .gutter {
-                padding: 30px;
-            }
-            .button {
-                background: #FF0072;
-                color: #fff !important;
-                display: inline-block;
-                border-radius: 3px;
-                padding: 10px 30px;
-                text-align: center;
-                text-decoration: none;
-                font-weight: bold;
-            }
-            img {
-                max-width: 100%;
-            }
+      .gutter {
+        padding: 30px;
+      }
+      .button {
+        background: #ff0072;
+        color: #ffffff !important;
+        display: inline-block;
+        border-radius: 3px;
+        padding: 10px 30px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      img {
+        max-width: 100%;
+      }
 
-            a {
-                color: #FF0072;
-            }
-                a:hover {
-                    color: #fff;
-                }
-            @media screen and (max-width: 600px) {
-                .wrap {
-                    max-width: auto;
-                }
-                .gutter {
-                    padding: 10px;
-                }
-            }
-        </style>
-    </head>
-<body style="background-color: #222138;">
+      a {
+        color: #ff0072;
+      }
+      a:hover {
+        color: #ffffff;
+      }
+      @media screen and (max-width: 600px) {
+        .wrap {
+          max-width: auto;
+        }
+        .gutter {
+          padding: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body style="background-color: #222138">
     <div class="gutter">&nbsp;</div>
     <div class="wrap">
-        <div class="header">
-            <img src="https://datablocks.pro/images/datablocks-logo.png" width="160" />
-        </div>
-{{ end }}
-
-{{ define "footer" }}
+      <div class="header">
+        <img
+          src="https://datablocks.pro/images/datablocks-logo.png"
+          width="160"
+        />
+      </div>
+      {{ end }} {{ define "footer" }}
     </div>
-        
+
     <div class="footer">
-        <p><a href="https://datablocks.pro" target="_blank" style="color: #9ca8b3;">datablocks</a> is a project by <a href="https://webkid.io" target="_blank" style="color: #9ca8b3;">webkid.io</a></p>    </div>
+      <p>
+        <a href="https://datablocks.pro" target="_blank" style="color: #9ca8b3"
+          >datablocks</a
+        >
+        is a project by
+        <a href="https://webkid.io" target="_blank" style="color: #9ca8b3"
+          >webkid.io</a
+        >
+      </p>
+    </div>
     <div class="gutter">&nbsp;</div>
-</body>
+  </body>
 </html>
 {{ end }}

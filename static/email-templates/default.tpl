@@ -12,12 +12,12 @@
                 font-size: 15px;
                 line-height: 26px;
                 margin: 0;
-                color: #fff;
+                color: #ffffff;
             }
 
 
             .header {
-                border-bottom: 1px solid #eee;
+                border-bottom: 1px solid #eeeeee;
                 padding-bottom: 15px;
                 margin-bottom: 15px;
             }
@@ -34,22 +34,22 @@
                 background: #FF0072;
                 border-radius: 3px;
                 text-decoration: none !important;
-                color: #fff !important;
+                color: #ffffff !important;
                 font-weight: bold;
                 padding: 10px 30px;
                 display: inline-block;
             }
             .button:hover {
-                background: #111;
+                background: #111111;
             }
 
             .footer {
                 text-align: center;
                 font-size: 12px;
-                color: #888;
+                color: #888888;
             }
                 .footer a {
-                    color: #888;
+                    color: #888888;
                 }
 
             .gutter {
@@ -64,7 +64,7 @@
                 color: #FF0072;
             }
                 a:hover {
-                    color: #fff;
+                    color: #ffffff;
                 }
             @media screen and (max-width: 600px) {
                 .wrap {
